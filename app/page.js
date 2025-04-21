@@ -42,7 +42,7 @@ export default function LandingPage() {
                 key={index}
                 className="border-2 hover:border-primary transition-colors duration-300"
               >
-                <Link href="/dashboard">
+                <Link href={feature.link} passHref>
                   <CardContent className="pt-6 text-center flex flex-col items-center">
                     <div className="flex flex-col items-center justify-center">
                       {feature.icon}
@@ -66,20 +66,20 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto text-center">
             <div className="flex flex-col items-center justify-center space-y-2">
-              <h3 className="text-4xl font-bold">50+</h3>
-              <p className="text-muted-foreground">Industries Covered</p>
+              <h3 className="text-4xl font-bold">200 MB+</h3>
+              <p className="text-muted-foreground">Data Upload</p>
             </div>
             <div className="flex flex-col items-center justify-center space-y-2">
-              <h3 className="text-4xl font-bold">1000+</h3>
-              <p className="text-muted-foreground">Interview Questions</p>
+              <h3 className="text-4xl font-bold">10+</h3>
+              <p className="text-muted-foreground">Plot Visualization</p>
             </div>
             <div className="flex flex-col items-center justify-center space-y-2">
-              <h3 className="text-4xl font-bold">95%</h3>
-              <p className="text-muted-foreground">Success Rate</p>
+              <h3 className="text-4xl font-bold">50%</h3>
+              <p className="text-muted-foreground">Time Reduce</p>
             </div>
             <div className="flex flex-col items-center justify-center space-y-2">
-              <h3 className="text-4xl font-bold">24/7</h3>
-              <p className="text-muted-foreground">AI Support</p>
+              <h3 className="text-4xl font-bold">100%</h3>
+              <p className="text-muted-foreground">Free Forever</p>
             </div>
           </div>
         </div>
@@ -90,12 +90,9 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold mb-4">How It Works</h2>
-            <p className="text-muted-foreground">
-              Four simple steps to accelerate your career growth
-            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 max-w-6xl mx-auto">
             {howItWorks.map((item, index) => (
               <div
                 key={index}
@@ -193,13 +190,15 @@ export default function LandingPage() {
         <div className="mx-auto py-24 gradient rounded-lg">
           <div className="flex flex-col items-center justify-center space-y-4 text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold tracking-tighter text-primary-foreground sm:text-4xl md:text-5xl">
-              Ready to Accelerate Your Career?
+              Ready to Transform Your Data Journey?
             </h2>
             <p className="mx-auto max-w-[600px] text-primary-foreground/80 md:text-xl">
-              Join thousands of professionals who are advancing their careers
-              with AI-powered guidance.
+              Join the future of data-driven innovation with NextGen
             </p>
-            <Link href="/dashboard" passHref>
+            <Link
+              href="https://data-visualization-studio.streamlit.app/"
+              passHref
+            >
               <Button
                 size="lg"
                 variant="secondary"

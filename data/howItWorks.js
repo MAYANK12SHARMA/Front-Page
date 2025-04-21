@@ -1,25 +1,31 @@
-import { UserPlus, FileEdit, Users, LineChart } from "lucide-react";
+import { CloudUpload, BarChart, FileText, Cpu, Layers } from "lucide-react";
 
 export const howItWorks = [
   {
-    title: "Professional Onboarding",
-    description: "Share your industry and expertise for personalized guidance",
-    icon: <UserPlus className="w-8 h-8 text-primary" />,
-  },
-  {
-    title: "Craft Your Documents",
-    description: "Create ATS-optimized resumes and compelling cover letters",
-    icon: <FileEdit className="w-8 h-8 text-primary" />,
-  },
-  {
-    title: "Prepare for Interviews",
+    title: "Seamless Data Upload",
     description:
-      "Practice with AI-powered mock interviews tailored to your role",
-    icon: <Users className="w-8 h-8 text-primary" />,
+      "Easily upload datasets in CSV, XLSX formats for quick insights.",
+    icon: <CloudUpload className="w-8 h-8 text-primary" />,
   },
   {
-    title: "Track Your Progress",
-    description: "Monitor improvements with detailed performance analytics",
-    icon: <LineChart className="w-8 h-8 text-primary" />,
+    title: "Data Visualization",
+    description: "Generate interactive plots with a few clicks.",
+    icon: <BarChart className="w-8 h-8 text-primary" />,
+  },
+  {
+    title: "Automated Reporting",
+    description: "Generate detailed reports  automatically.",
+    icon: <FileText className="w-8 h-8 text-primary" />,
+  },
+  {
+    title: "Machine Learning Model Training",
+    description:
+      "Train ML models efficiently with automated splitting, and evaluation features.",
+    icon: <Cpu className="w-8 h-8 text-primary" />,
+  },
+  {
+    title: "Deep Learning Model Integration",
+    description: "Build and train deep learning models",
+    icon: <Layers className="w-8 h-8 text-primary" />,
   },
 ];

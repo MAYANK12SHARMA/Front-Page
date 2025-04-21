@@ -1,32 +1,42 @@
 export const faqs = [
   {
-    question: "What makes Sensai unique as a career development tool?",
+    question: "What is the NextGen ML Platform?",
     answer:
-      "Sensai combines AI-powered career tools with industry-specific insights to help you advance your career. Our platform offers three main features: an intelligent resume builder, a cover letter generator, and an adaptive interview preparation system. Each tool is tailored to your industry and skills, providing personalized guidance for your professional journey.",
+      "NextGen is an all-in-one no-code Machine Learning platform that allows users to explore data, build models, and visualize insights without writing any code. It integrates Data Visualization, Machine Learning, and Deep Learning studios into a seamless workflow.",
   },
   {
-    question: "How does Sensai create tailored content?",
+    question: "Who can use the NextGen platform?",
     answer:
-      "Sensai learns about your industry, experience, and skills during onboarding. It then uses this information to generate customized resumes, cover letters, and interview questions. The content is specifically aligned with your professional background and industry standards, making it highly relevant and effective.",
+      "The platform is designed for both technical and non-technical users—students, analysts, researchers, or professionals. Anyone can upload datasets (CSV, XLS, etc.) and start analyzing, training, and deploying models with just a few clicks.",
   },
   {
-    question: "How accurate and up-to-date are Sensai's industry insights?",
+    question: "What features does the Data Visualization Studio offer?",
     answer:
-      "We update our industry insights weekly using advanced AI analysis of current market trends. This includes salary data, in-demand skills, and industry growth patterns. Our system constantly evolves to ensure you have the most relevant information for your career decisions.",
+      "The Data Visualization Studio provides automatic insights through interactive dashboards, customizable visualizations like scatter plots, heatmaps, and box plots, and report generation in PDF or HTML formats. Users can also create custom plots using the PlotWizard module.",
   },
   {
-    question: "Is my data secure with Sensai?",
+    question: "Can I train Machine Learning models on this platform?",
     answer:
-      "Absolutely. We prioritize the security of your professional information. All data is encrypted and securely stored using industry-standard practices. We use Clerk for authentication and never share your personal information with third parties.",
+      "Yes, the ML Studio offers a full suite for model training, including preprocessing, feature selection, model selection (classification & regression), evaluation metrics, and visualization of results—all in a no-code environment.",
   },
   {
-    question: "How can I track my interview preparation progress?",
+    question: "Is Deep Learning supported in NextGen?",
     answer:
-      "Sensai tracks your performance across multiple practice interviews, providing detailed analytics and improvement suggestions. You can view your progress over time, identify areas for improvement, and receive AI-generated tips to enhance your interview skills based on your responses.",
+      "Absolutely! The Deep Learning Studio enables users to build and train neural networks for image, text, and tabular data tasks. It supports multiple architectures and provides model performance analytics.",
   },
   {
-    question: "Can I edit the AI-generated content?",
+    question: "How does the platform handle my data?",
     answer:
-      "Yes! While Sensai generates high-quality initial content, you have full control to edit and customize all generated resumes, cover letters, and other content. Our markdown editor makes it easy to refine the content to perfectly match your needs.",
+      "NextGen ensures your data is handled securely. Uploaded data is stored temporarily for processing and is not shared or reused. Reports and models can be downloaded locally for privacy and security.",
+  },
+  {
+    question: "Can I download the plots and reports?",
+    answer:
+      "Yes. All plots created using the PlotWizard and all generated reports can be downloaded in both image and document formats. This makes it easy to include insights in your presentations or documentation.",
+  },
+  {
+    question: "Do I need programming knowledge to use NextGen?",
+    answer:
+      "No coding skills are required. The entire platform is built on a visual, user-friendly interface using Streamlit, allowing you to build ML pipelines and data visualizations without writing a single line of code.",
   },
 ];

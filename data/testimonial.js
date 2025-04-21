@@ -1,26 +1,26 @@
 export const testimonial = [
   {
     quote:
-      "The AI-powered interview prep was a game-changer. Landed my dream job at a top tech company!",
+      "NextGen completely transformed how I work with data. From automated visualizations to generating ML reports, it saved me hours every week.",
     author: "Sarah Chen",
     image: "https://randomuser.me/api/portraits/women/75.jpg",
-    role: "Software Engineer",
-    company: "Tech Giant Co.",
+    role: "Data Analyst",
+    company: "InnoData Solutions",
   },
   {
     quote:
-      "The industry insights helped me pivot my career successfully. The salary data was spot-on!",
+      "As a product manager with no coding background, I was able to generate insights and train ML models without writing a single line of code!",
     author: "Michael Rodriguez",
     image: "https://randomuser.me/api/portraits/men/75.jpg",
     role: "Product Manager",
-    company: "StartUp Inc.",
+    company: "Visionary Tech",
   },
   {
     quote:
-      "My resume's ATS score improved significantly. Got more interviews in two weeks than in six months!",
+      "The PlotWizard feature is incredible! I could create detailed visualizations and even export them with code—perfect for reporting and presentations.",
     author: "Priya Patel",
     image: "https://randomuser.me/api/portraits/women/74.jpg",
-    role: "Marketing Director",
-    company: "Global Corp",
+    role: "Business Intelligence Lead",
+    company: "DataNova Corp",
   },
 ];
