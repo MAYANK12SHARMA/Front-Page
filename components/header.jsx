@@ -59,18 +59,16 @@ export default async function Header() {
               <FileText className="h-4 w-4" />
             </Button>
 
-            <Link href="/about">
-              <Button
-                variant="outline"
-                className="hidden md:inline-flex items-center gap-2"
-              >
-                <GraduationCap className="h-4 w-4" />
-                About us
-              </Button>
-              <Button variant="ghost" className="md:hidden w-10 h-10 p-0">
-                <GraduationCap className="h-4 w-4" />
-              </Button>
-            </Link>
+            <Button
+              variant="outline"
+              className="hidden md:inline-flex items-center gap-2"
+            >
+              <GraduationCap className="h-4 w-4" />
+              <Link href="/about">About us </Link>
+            </Button>
+            <Button variant="ghost" className="md:hidden w-10 h-10 p-0">
+              <GraduationCap className="h-4 w-4" />
+            </Button>
 
             {/* Growth Tools Dropdown */}
             {/* <DropdownMenu>
