@@ -45,7 +45,7 @@ const AboutUs = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-yellow-600 opacity-40 rounded-3xl group-hover:opacity-60 transition-all duration-500 ease-in-out"></div>
           <div className="flex flex-col items-center relative z-10">
             <img
-              src="/Mayank.png"
+              src="/garvit.jpg"
               alt="Garvit Kedia"
               className="w-28 h-28 rounded-full border object-cover mb-4 transition-all duration-300 ease-in-out group-hover:scale-105"
             />
